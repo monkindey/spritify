@@ -1,0 +1,16 @@
+{
+	"name": "spritify",
+	"version": "0.0.1",
+	"description": "spritify images",
+	"main": "build.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"exp": "webpack ./examples/src/index.less ./examples/dist/index.js --module-bind less=style!css!less --module-bind png=file --watch --output-public-path=dist/"
+	},
+	"dependencies": {
+		"spritesheet-templates": "^10.0.0",
+		"spritesmith": "^3.1.0"
+	},
+	"author": "monkindey",
+	"license": "MIT"
+}
